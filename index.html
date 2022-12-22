@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carter | Portfolio</title>
+    <meta name="keywords" content="CarterLi, Carter, software, developer" />
+    <meta name="description" content="Carter Li | Portfolio" />
+    <link rel="icon" type="image/png" href="./assets/carter-logo.png" />
+    <meta name="theme-color" content="#2AA670" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://carterli.dev" />
+    <meta property="og:title" content="Carter | Portfolio" />
+    <meta property="og:description" content="Credits to Anil Seervi" />
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://carterli.dev" />
+    <meta property="twitter:title" content="Carter | Portfolio" />
+    <meta
+      property="twitter:description"
+      content="Credits to Anil Seervi"
+    />
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+  </head>
+  <body>
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi! My name is <span class="text-color-main name">Carter</span>
+          <br />
+          I make stuff, break stuff, and fix stuff.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">About Me</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/carter_pfp.jpg"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hi! I'm a software developer currently studying CS at Stony Brook.
+            </p>
+            <p class="about-wrapper__info-text">
+              I've had a strong passion for technology and its applications ever since I watched Iron Man when I was six. I enjoy nothing more than building stuff or messing around with stuff that shouldn't be messed around with.
+            </p>
+            <p class="about-wrapper__info-text">
+              Feel free to contact me for any business inquiries :)
+            </p>
+            <span class="about-wrapper__cta">
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1rIpDLhWVvmzCTSR44MM5tT-fvKsJaKeI/view?usp=sharing" class="cta-btn cta-btn--resume">View My Resume!</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">3D AI Tic Tac Toe</h3>
+              <p class="project-wrapper__text-info">
+                A twist on the classic Tic-Tac-Toe, allowing for pieces to be placed on top of pieces not recently placed. Features a simple but effective AI bot.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using vanilla Javascript, HTML, and CSS.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://carterlisb.github.io/3D-AI-Tic-Tac-Toe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Try Me!</a
+                >
+                <a
+                href="https://github.com/CarterLiSB/3D-AI-Tic-Tac-Toe"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >GitHub</a
+              >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/tictactoe_demo.gif"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Playlister</h3>
+              <p class="project-wrapper__text-info">
+                A fully fledged AIO YouTube playlisting website, with encrypted accounts and login system. Allows for the creation, editing, and publishing of YouTube playlists. Features foolproof design, a search function, sorting, likes/dislikes, and a comment section.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using React, MongoDB, Express, Axios, MUI, Node.js, and YouTube API, 
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/CarterLiSB/Playlist_V5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/playlister_demo.gif"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Incognito Spy</h3>
+              <p class="project-wrapper__text-info">
+                A website designed to raise awareness for the dangers of browser fingerprinting by accurately tracking and
+                identifying users, bypassing incognito, VPNs, and adblockers.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using AWS, React, and FingerprintJS API.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="http://incognitospy.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Try Me!</a
+                >
+              </div>[Down for Maitenance]
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/incognitospy_thumbnail.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Codebreaker</h3>
+              <p class="project-wrapper__text-info">
+                A simple code-cracking game with randomized events and a codepad.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using vanilla Javascript, HTML, and CSS.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://carterlisb.github.io/Codebreaker/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Try Me!</a
+                >
+                <a
+                href="https://github.com/CarterLiSB/Codebreaker"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >GitHub</a
+              >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/codebreaker_thumbnail.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Bookworm</h3>
+              <p class="project-wrapper__text-info">
+                An automated bot for the browser game Bombparty (jklm.fun), developed to be indistinguishable from a human player. Retrieves and parses data on the page using BS4, performs a client-side dictionary search utilizing the game’s
+                given prompt, and returns a humanized answer. 
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using Python, BeautifulSoup4, Selenium, and Chromium.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/CarterLiSB/Bookworm-V2.4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/bombparty_demo.gif"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Hot n Cold</h3>
+              <p class="project-wrapper__text-info">
+                A simple hot or cold guessing game built using vanilla Javascript, HTML, and CSS.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using vanilla Javascript, HTML, and CSS.
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/hotncold_thumbnail.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Stock Trading Bot</h3>
+              <p class="project-wrapper__text-info">
+                A hands-free script which makes rapid, deliberate trades on a stock account with real money, using technical and statistical analysis, such as Bollinger Bands, RSI, and volume.
+              </p>
+              <p class="project-wrapper__text-info">
+                Built using Python, and QuantConnect.
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a>
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/stockbot_thumbnail.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Questions? Cute Cat Photos?</p>
+          <a href="mailto:business@carterli.dev" class="cta-btn cta-btn--resume">Email Me!</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/cartcartli/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100008557117065"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="facebook"
+          >
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/carterli/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/CarterLiSB"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          <span id="year"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
